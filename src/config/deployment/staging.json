@@ -1,0 +1,27 @@
+{
+  "server": {
+    "port": 8888,
+    "authTokenExpirationTime": "30m"
+  },
+  "logger": {
+    "types": ["file"],
+    "level": "error"
+  },
+  "documentation": {
+    "info": {
+      "title": "Api Documentation"
+    },
+    "swaggerUI": false,
+    "documentationPage": true,
+    "connectionLabel": "backend-api",
+    "grouping": "tags"
+  },
+  "db": {
+    "uri": "mongodb://localhost/somitydb",
+    "options": {
+      "useMongoClient": true,
+      "poolSize": 10,
+      "bufferMaxEntries": 0
+    }
+  }
+}

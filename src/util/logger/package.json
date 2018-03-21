@@ -1,0 +1,8 @@
+{
+  "name": "logger",
+  "version": "1.0.0",
+  "description": "winston based logger",
+  "main": "logger.js",
+  "author": "Anik <anikgnr@gmail.com>",
+  "license": "UNLICENSED"
+}

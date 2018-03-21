@@ -1,0 +1,8 @@
+{
+  "name": "payments",
+  "version": "1.0.0",
+  "description": "monthly money collection related apis",
+  "main": "plugin.js",
+  "author": "Anik <anikgnr@gmail.com>",
+  "license": "UNLICENSED"
+}

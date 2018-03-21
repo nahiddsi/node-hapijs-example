@@ -1,0 +1,8 @@
+{
+  "name": "auth-jwt",
+  "version": "1.0.0",
+  "description": "jwt based auth",
+  "main": "plugin.js",
+  "author": "Anik <anikgnr@gmail.com>",
+  "license": "UNLICENSED"
+}

@@ -1,0 +1,28 @@
+{
+  "server": {
+    "port": 3000,
+    "authTokenExpirationTime": "15m"
+  },
+  "logger": {
+    "types": ["console"],
+    "level": "info"
+  },
+  "db": {
+    "uri": "mongodb://localhost/somitydb",
+    "options": {
+      "useMongoClient": true,
+      "poolSize": 10,
+      "bufferMaxEntries": 0
+    }
+  },
+  "app": {
+    "PerMonthInstallment": 1000,
+    "AccountStartDate": "2017-04-01"
+  },
+  "testData": {
+    "admin": {
+      "username": "anik",
+      "password": "123456"
+    }
+  }
+}

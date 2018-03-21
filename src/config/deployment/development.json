@@ -1,0 +1,30 @@
+{
+  "server": {
+    "port": 3000,
+    "authTokenExpirationTime": "15m"
+  },
+  "logger": {
+    "types": ["console"],
+    "level": "debug"
+  },
+  "documentation": {
+    "info": {
+      "title": "Api Documentation"
+    },
+    "swaggerUI": false,
+    "documentationPage": true,
+    "grouping": "tags"
+  },
+  "db": {
+    "uri": "mongodb://localhost/somitydb",
+    "options": {
+      "useMongoClient": true,
+      "poolSize": 10,
+      "bufferMaxEntries": 0
+    }
+  },
+  "app": {
+    "PerMonthInstallment": 1000,
+    "AccountStartDate": "2017-04-01"
+  }
+}
