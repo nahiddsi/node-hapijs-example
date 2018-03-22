@@ -8,7 +8,7 @@
     "level": "info"
   },
   "db": {
-    "uri": "mongodb://localhost/somitydb",
+    "uri": "mongodb://travis:12345678@ds221609.mlab.com:21609/somitydb",
     "options": {
       "useMongoClient": true,
       "poolSize": 10,
