@@ -27,7 +27,7 @@ module.exports = {
     },
     users_userid_get: {
         headers: Joi.object({
-Authorization: JoiSchema.string('Valid temporary auth token')
+            Authorization: JoiSchema.string('Valid temporary auth token')
         }).options({ allowUnknown: true }),
         params: {
             UserId: JoiSchema.string_required('User ID')
