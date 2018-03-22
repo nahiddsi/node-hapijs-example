@@ -1,5 +1,5 @@
 module.exports = {
-    coverage: false,
+    coverage: true,
     verbose: true,
     leaks: false,
     lint: true,
